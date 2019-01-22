@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package javaapplication10;
 
 /**
@@ -10,11 +5,25 @@ package javaapplication10;
  * @author Deep
  */
 public class JavaApplication10 {
-
+    private int dob;
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+    }
+
+    /**
+     * @return the dob
+     */
+    public int getDob() {
+        return dob;
+    }
+
+    /**
+     * @param dob the dob to set
+     */
+    public void setDob(int dob) {
+        this.dob = dob;
     }
 }
